@@ -1,4 +1,4 @@
-# MATSFT: Multilingual  Abstractive Text Summarization  for Indian Languages using Fine-tuning Transformer
+# MATSFT: Multilingual  Abstractive Text Summarization  for Indian Languages using Fine-tuning mT5
 
 
 Language      | ISO 639-1 Code | BBC subdomain(s) | Train | Dev | Test | Total | Link

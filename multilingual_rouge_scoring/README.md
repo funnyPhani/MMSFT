@@ -2,7 +2,7 @@
 
 ## Overview
 
-ROUGE is the de facto evaluation metric used for text summarization. However, it was designed specifically for evaluating English texts. Due to the nature of the metric, scores are heavily dependent on text tokenization / stemming / unnecessary character removal, etc. This repo tries to address these issues by adding the following main features using an adaptation of [rouge-score: Google's rouge implementation](https://github.com/google-research/google-research/tree/master/rouge).
+ROUGE is the de facto evaluation metric used for text summarization. However, it was designed specifically for evaluating English texts. Due to the nature of the metric, scores are heavily dependent on text tokenization / stemming / unnecessary character removal, etc. This repo tries to address these issues by adding the following main features using an adaptation of [rouge-score: Google's rouge implementation].
 
 * Enables multilingual ROUGE scoring by making use of popular word segmentation / stemming algorithms for various languages.
 * Removes only punctuation characters according to unicode data tables as part of text normalization. This enables basic rouge scoring even with the absence of a segmenter / stemmer for any language.
@@ -26,7 +26,7 @@ pip3 install --upgrade ./
 
 ### Using CLI
 ```bash
-python -m rouge_score.rouge \
+python -m rouge.rouge \
     --target_filepattern=*.targets \
     --prediction_filepattern=*.decodes \
     --output_filename=scores.csv \
@@ -91,5 +91,5 @@ scores = scorer.score('The quick brown fox jumps over the lazy dog',
 ## License
 
 Originally licensed under the
-[Apache 2.0](https://github.com/google-research/google-research/blob/master/LICENSE)
+[Apache 2.0]
 License.

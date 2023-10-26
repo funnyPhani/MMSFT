@@ -1,4 +1,4 @@
-# Language-agnostic Summary Evaluation (LaSE)
+
 
 ## Overview
 

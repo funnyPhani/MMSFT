@@ -21,7 +21,7 @@ pip3 install --upgrade ./
 ## Usage
 
 ```python
-from LaSE import LaSEScorer 
+from LaTM import LaSEScorer 
 scorer = LaSEScorer()
 
 ref_text = """reference text"""
